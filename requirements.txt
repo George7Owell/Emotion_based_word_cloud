@@ -6,4 +6,4 @@ seaborn
 nltk
 scikit-learn
 wordcloud
-gensim
+gensim==4.3.2
