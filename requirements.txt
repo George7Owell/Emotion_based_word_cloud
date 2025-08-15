@@ -1,25 +1,8 @@
-# --- Core app ---
-streamlit>=1.35,<2
-pandas>=2.1,<3
-numpy>=1.26,<2
-matplotlib>=3.8,<4
-seaborn>=0.13,<0.14
-
-# --- NLP & ML ---
-scikit-learn>=1.4,<1.6
-gensim>=4.3,<5
-scipy>=1.10,<1.14         # gensim / sklearn dependency
-wordcloud>=1.9,<2
-nltk>=3.9,<4
-
-# --- Models (project requirement includes XGBoost) ---
-xgboost>=2.0,<4
-
-# --- File formats (Parquet + images) ---
-pyarrow>=15,<18
-fastparquet>=2024.2.0
-pillow>=10,<12
-
-# --- Optional performance helpers (uncomment if you use them) ---
-# polars>=1.0,<2
-# tqdm>=4.66,<5
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+scikit-learn
+wordcloud
