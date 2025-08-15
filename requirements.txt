@@ -6,4 +6,5 @@ seaborn
 nltk
 scikit-learn
 wordcloud
-gensim==4.3.2
+gensim==4.3.3
+scipy>=1.10.0
