@@ -1864,11 +1864,12 @@ PAGES = {
 #Sidebarlogo
 st.sidebar.image(
         "Homepage.png",
-        use_column_width=False,
+        use_container_width =False,
         width=200,
 )
 # Sidebar navigation (your style preserved)
 choice = st.sidebar.selectbox("Please Select Page", list(PAGES.keys()))
 PAGES[choice]()
+
 
 
